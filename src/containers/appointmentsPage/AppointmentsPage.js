@@ -31,6 +31,7 @@ export const AppointmentsPage = ( {appointments, addAppointment, contacts} ) => 
   return (
     <div>
       <section>
+        <h1>Hello Netlify</h1>
         <h2>Add Appointment</h2>
           <AppointmentForm name={name} setName={setName} contact={contact} setContact={setContact}
                            date={date} setDate={setDate} time={time} setTime={setTime} handleSubmit={handleSubmit}
